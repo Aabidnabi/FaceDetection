@@ -9,7 +9,7 @@ if not os.path.isdir(path):
     os.makedirs(path)
 (width,height) = (230,270)
 
-alg = "D:/PANTECH PROJECTS/haarcascade_frontalface_default.xml"
+alg = "haarcascade_frontalface_default.xml"
 
 haar_cascade = cv2.CascadeClassifier(alg)
 cam = cv2.VideoCapture(0)
